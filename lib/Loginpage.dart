@@ -91,7 +91,7 @@ class _LoginPageState extends State<LoginPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(
-                  onPressed: login, // Memanggil fungsi _login saat tombol Login ditekan
+                  onPressed: login,
                   child: Text('Login'),
                 ),
                 SizedBox(width: 20),
